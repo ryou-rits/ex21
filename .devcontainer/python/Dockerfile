@@ -1,6 +1,6 @@
 FROM python:3.8-slim
 
-WORKDIR /tmp/WORKDIR
+WORKDIR /tmp/work
 
 COPY requirements.txt ${PWD}
 
