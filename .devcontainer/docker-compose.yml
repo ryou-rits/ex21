@@ -7,6 +7,6 @@ services:
         container_name: 'ex21_python'
         stdin_open: true
         tty: true
-        working/dir: '/tmp/work'
+        working_dir: '/tmp/work'
         volumes:
             - ../python:/tmp/work
